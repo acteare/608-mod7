@@ -62,3 +62,41 @@
 #### 10.13.3 - Data Class Advantages over Named Tuples
 
 ## Chapter 15 - Machine Learning
+
+### 15.1 - Introduction to Machine Learning
+#### 15.1.1 - Scikit-Learn
+- Scikit-Learn: conveniently packages the most effective maching-learning algorithms as estimators. 
+#### 15.1.2 - Types of Machine Learning
+- Supervised machine learning: works with labeled data
+    - Classification: predict the discrete classes (categories) to which samples belong. 
+    - Regression: predict a continuous output
+- Unsupervised machine learning: works with unlabeled data
+#### 15.1.3 - Datasets Bundled with Scikit-Learn
+#### 15.1.4 - Steps in a Typical Data Science Study
+
+### 15.2 - Case Study: Classification with k-Nearest Neighbors and the Digits Dataset, Part 1
+- Binary classification: having two classes
+#### 15.2.1 - k-Nearest Neighbors Algorithm
+- k-Nearest Neighbors: attempts to predict a test sample's class by looking at the k training samples that are nearest (in distance) to the test sample. 
+There are two parameter types in machine learning:
+1. those the estimator claculates as it learns from the data you provide
+2. those you specify in advance when you create the scikit-learn estimator object that represents the model
+- hyperparameters: parameters specified in advance
+#### 15.2.2 - Loading the Dataset
+#### 15.2.3 - Visualizing the Data
+#### 15.2.4 - Splitting the Data for Training and Testing
+#### 15.2.5 - Creating the Model
+#### 15.2.6 - Training the Model
+#### 15.2.7 - Predicting Digit Classes
+
+### 15.3 - Case Study: Classification with k-Nearest Neighbors and the Digits Dataset, Part 2
+#### 15.2.1 - Metrics for Model Accuracy
+- score method: returns an indication of how well the estimator performs for the test data you pass as arguments
+- confusion matrix: shows the correct and incorrect predicted values for a given class
+#### 15.2.3 - K-Fold Cross-Visualization
+#### 15.3.3 - Running Multiple Models to Find the Best One
+#### 15.3.4 - Hyperparameter Tuning
+
+### 15.4 - Case Study: Time Series and Simple Linear Regression
+- underfitting: Occurs when a model is too simple to make predictions, based on its training data
+- overfitting: When you model is too complex. The most extreme case would be a model that memorizes its training data. 
